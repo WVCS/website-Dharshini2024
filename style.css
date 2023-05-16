@@ -1,4 +1,7 @@
 body {
+  background-color: #dee1e3
+}
+
 .topnav {
   background-color: #e5cdf4;
   overflow: hidden;
@@ -17,6 +20,4 @@ body {
 .topnav a.active {
   background-color: #9cd3c0;
   color: #084C61;
-}
-  
 }
