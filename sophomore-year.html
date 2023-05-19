@@ -8,3 +8,26 @@
       <a href="senior-year.html"> SENIOR </a>
     </div>
   </head>
+<body>
+    <div id="sophomorenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="sophomore-year/cis.html">CIS</a>
+      <a href="sophomore-year/graphic-design.html">GRAPHIC DESIGN 1-2</a>
+    </div>
+    <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    </div>
+</body>
+<script>
+function openNav() {
+  document.getElementById("sophomorenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("sophomorenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "rgba(242,233,228,1)";
+}
+</script>
