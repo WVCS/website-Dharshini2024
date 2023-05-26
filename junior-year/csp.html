@@ -3,7 +3,23 @@
 <a href="../index.html"> back to home </a>
 </head>
 <body>
+    <div id="juniorSide" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="junior-year/writing-seminar.html">WRITING SEMINAR</a>
+      <a href="junior-year/drawing-painting.html">DRAWING AND PAINTING 1-2</a>
+      <a href="junior-year/graphic-design.html">GRAPHIC DESIGN 3-4</a>
+      <a href="junior-year/csp.html">AP CSP</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
   <center>
 <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/n5gglI7dUGnRqy3cOO4Qu7FCS7VTnmi706GlEN-hS2A/embed?nosource"></iframe>
   </center>
 </body>
+<script>
+function openNav() {
+  document.getElementById("juniorSide").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("juniorSide").style.width = "0";
+}
+</script>
